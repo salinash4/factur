@@ -2,8 +2,8 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <img alt="Vue logo" src="./assets/logo_coop_header.png">
-    <br><br><br>
-    <HelloWorld msg="FACTUR - Sistema de Facturación"/>
+    <br>
+    <HelloWorld msg="SYSFACTUR - Sistema de Facturación"/>
   </div>
 </template>
 
