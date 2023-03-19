@@ -4,15 +4,25 @@
     <p>
       Ingrese sus credenciales de acceso
     </p>
+    <div>
+      <b-form-input v-model="text" placeholder="Enter your name"></b-form-input>
+      <div class="mt-2">Value: {{ text }}</div>
+    </div>
   </div>
 </template>
+
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  export default {
+    name: 'HelloWorld',
+    props: {
+      msg: String
+    },
+    data() {
+      return {
+        text: ''
+      }
+    }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
