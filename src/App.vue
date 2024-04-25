@@ -3,19 +3,19 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <img alt="Vue logo" src="./assets/logo_coop_header.png">
     <br>
-    <HelloWorld msg="SYSFACTUR - Sistema de Facturación"/>
+    <HelloWorld msg="FACTUR - Sistema de Facturación"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  export default {
+    name: 'App',
+    components: {
+      HelloWorld
+    }
   }
-}
 </script>
 
 <style>
